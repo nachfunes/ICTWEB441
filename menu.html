@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's Café - Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Bryan's Café Logo"></a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div id="meal-items">
+                <!-- Meal items will be dynamically loaded here -->
+            </div>
+            <div id="beverage-items">
+                <!-- Beverage items will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>@<span id="year"></span> Bryan's Café</p>
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+    </footer>
+
+    <script src="js/yearUpdater.js"></script>
+    <script src="js/menuLoader.js"></script>
+</body>
+</html>
